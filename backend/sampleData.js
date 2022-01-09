@@ -8,9 +8,7 @@ const ApplePhone = `Apple iPhone 13 Pro Max`;
 const SamsungPhone = `Samsung Galaxy S21 Ultra`;
 const SonyPhone = `Sony Xperia PRO`;
 const HuaweiPhone = 'HUAWEI P40 PRO';
-const green = "🟢 Is available";
-const yellow = "🟡 It is limited";
-const red = "🔴 Not available";
+
 
 // This class holds sample data used by some generated pages to show how they can be used.
 // TODO Web Template Studio: Delete this file once your app is using real data.
@@ -19,7 +17,7 @@ sampleData.textAssets = [
     shortDescription: LenovoPhone,
     longDescription: `Lenovo P2`,
     title: "Lenovo",
-    status: green,
+    status: '',
     Price: "💲550",
     orderTotal: 2490.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
@@ -30,7 +28,7 @@ sampleData.textAssets = [
     shortDescription: LGPhone,
     longDescription: `LG V50 ThinQ`,
     title: "LG",
-    status: green,
+    status: '',
     Price: "💲543",
     orderTotal: 1760.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
@@ -41,7 +39,7 @@ sampleData.textAssets = [
     shortDescription: XiaomiPhone,
     longDescription: `Xiaomi 11T`,
     title: "Xiaomi",
-    status: green,
+    status: '',
     Price: "💲678",
     orderTotal: 665.0,
     orderDate: new Date(2017, 6, 3).toDateString(),
@@ -52,7 +50,7 @@ sampleData.textAssets = [
     shortDescription: VivoPhone,
     longDescription: `VIVO V20 SE`,
     title: "Vivo",
-    status: green,
+    status: '',
     Price: "💲630",
     orderTotal: 560.0,
     orderDate: new Date(2017, 6, 5).toDateString(),
@@ -63,7 +61,7 @@ sampleData.textAssets = [
     shortDescription: OppoPhone,
     longDescription: `Oppo Find X3 Pro`,
     title: "Oppo",
-    status: green,
+    status: '',
     Price: "💲483",
     orderTotal: 810.0,
     orderDate: new Date(2017, 6, 7).toDateString(),
@@ -74,7 +72,7 @@ sampleData.textAssets = [
     shortDescription: ApplePhone,
     longDescription: `Apple iPhone 13 Pro Max`,
     title: "Apple",
-    status: green,
+    status: '',
     Price: "💲2,443",
     orderTotal: 196.5,
     orderDate: new Date(2017, 6, 7).toDateString(),
@@ -85,7 +83,7 @@ sampleData.textAssets = [
     shortDescription: SamsungPhone,
     longDescription: `Samsung Galaxy S21 Ultra`,
     title: "Samsung",
-    status: green,
+    status: '',
     Price: "💲1,342",
     orderTotal: 270.0,
     orderDate: new Date(2017, 6, 11).toDateString(),
@@ -96,7 +94,7 @@ sampleData.textAssets = [
     shortDescription: SonyPhone,
     longDescription: `Sony Xperia PRO`,
     title: "Sony",
-    status: green,
+    status: '',
     Price: "💲529",
     orderTotal: 736.0,
     orderDate: new Date(2017, 6, 14).toDateString(),
@@ -107,7 +105,7 @@ sampleData.textAssets = [
     shortDescription: HuaweiPhone,
     longDescription: `HUAWEI P40 PRO`,
     title: "Huawei",
-    status: green,
+    status: '',
     Price: "💲563",
     orderTotal: 800.0,
     orderDate: new Date(2017, 6, 18).toDateString(),
