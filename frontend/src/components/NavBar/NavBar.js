@@ -12,17 +12,26 @@ const NavBar = () => {
       </div>
       <nav className="navbar navbar-expand-sm navbar-light border-bottom justify-content-between">
         <Link className="navbar-brand" to="/" role="heading" aria-level="1">
-          Palfrey
+        <i className="fas fa-dove">Palfrey</i>
         </Link>
         <div className="navbar-nav">
           <Link className="nav-item nav-link active" to="/">
-            ProductDetails
+            🛠️ <strong>ProductDetails</strong>
           </Link>
           <Link className="nav-item nav-link active" to="ProductOverview">
-            ProductOverview
+            📱 <strong>ProductOverview</strong>
           </Link>
         </div>
       </nav>
+
+
+
+    
+
+
+
+
+
     </React.Fragment>
   );
 }

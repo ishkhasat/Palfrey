@@ -5,12 +5,10 @@ import PropTypes from "prop-types";
 
 const Detail = ({ textSampleData }) => {
   const {
-    longDescription,
     title,
     status,
-    shipTo,
-    orderTotal,
-    orderDate
+    Price,
+    orderDate,
   } = textSampleData;
 
   return (
@@ -26,17 +24,16 @@ const Detail = ({ textSampleData }) => {
           <p>{status}</p>
           <p className={styles.title}>Order Date</p>
           <p>{orderDate}</p>
-          <p className={styles.title}>Ship To</p>
-          <p>{shipTo}</p>
-          <p className={styles.title}>Order Total</p>
-          <p>{orderTotal}</p>
-          <p className={styles.title}>Description</p>
-          <p>{longDescription}</p>
+          <p className={styles.title}>Price</p>
+          <p>{Price}</p>
+          
         </div>
       </div>
     </div>
   );
 }
+
+
 
 Detail.propTypes = {
   textSampleData: PropTypes.any
