@@ -1,118 +1,118 @@
-﻿const shortLoremIpsum = `Lorem id sint aliqua tempor tempor sit. Ad dolor dolor ut nulla mollit dolore non eiusmod Lorem tempor nisi cillum.`;
-const sampleData = {};
-const longLoremIpsum = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus
-  non enim praesent elementum facilisis leo vel. Risus at ultrices mi
-  tempus imperdiet. Semper risus in hendrerit gravida rutrum quisque non
-  tellus. Convallis convallis tellus id interdum velit laoreet id donec
-  ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl
-  suscipit adipiscing bibendum est ultricies integer quis. Cursus euismod
-  quis viverra nibh cras. Metus vulputate eu scelerisque felis imperdiet
-  proin fermentum leo. Mauris commodo quis imperdiet massa tincidunt. Cras
-  tincidunt lobortis feugiat vivamus at augue. At augue eget arcu dictum
-  varius duis at consectetur lorem. Velit sed ullamcorper morbi tincidunt.
-  Lorem donec massa sapien faucibus et molestie ac.`;
+﻿const sampleData = {};
+const LenovoPhone = `Lenovo P2`;
+const LGPhone = `LG V50 ThinQ`;
+const XiaomiPhone = `Xiaomi 11T`;
+const VivoPhone = `VIVO V20 SE`;
+const OppoPhone = `Oppo Find X3 Pro`;
+const ApplePhone = `Apple iPhone 13 Pro Max`;
+const SamsungPhone = `Samsung Galaxy S21 Ultra`;
+const SonyPhone = `Sony Xperia PRO`;
+const HuaweiPhone = 'HUAWEI P40 PRO';
+const green = "🟢 Is available";
+const yellow = "🟡 It is limited";
+const red = "🔴 Not available";
 
 // This class holds sample data used by some generated pages to show how they can be used.
 // TODO Web Template Studio: Delete this file once your app is using real data.
 sampleData.textAssets = [
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company A",
-    status: "Closed",
-    shipTo: "Francisco Pérez-Olaeta",
+    shortDescription: LenovoPhone,
+    longDescription: `Lenovo P2`,
+    title: "Lenovo",
+    status: green,
+    Price: "💲550",
     orderTotal: 2490.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
     id: 1,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyA.svg'
+    imageSrc:''
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company B",
-    status: "Closed",
-    shipTo: "Soo Jung Lee",
+    shortDescription: LGPhone,
+    longDescription: `LG V50 ThinQ`,
+    title: "LG",
+    status: green,
+    Price: "💲543",
     orderTotal: 1760.0,
     orderDate: new Date(2017, 5, 24).toDateString(),
-    id: 2
+    id: 2,
+    imageSrc:''
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company C",
-    status: "Shipped",
-    shipTo: "Run Liu",
+    shortDescription: XiaomiPhone,
+    longDescription: `Xiaomi 11T`,
+    title: "Xiaomi",
+    status: green,
+    Price: "💲678",
     orderTotal: 665.0,
     orderDate: new Date(2017, 6, 3).toDateString(),
     id: 3,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyC.svg'
+    imageSrc:''
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company D",
-    status: "Shipped",
-    shipTo: "Soo Jung Lee",
+    shortDescription: VivoPhone,
+    longDescription: `VIVO V20 SE`,
+    title: "Vivo",
+    status: green,
+    Price: "💲630",
     orderTotal: 560.0,
     orderDate: new Date(2017, 6, 5).toDateString(),
     id: 4,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyD.svg'
+    imageSrc:''
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company E",
-    status: "New",
-    shipTo: "John Rodman",
+    shortDescription: OppoPhone,
+    longDescription: `Oppo Find X3 Pro`,
+    title: "Oppo",
+    status: green,
+    Price: "💲483",
     orderTotal: 810.0,
     orderDate: new Date(2017, 6, 7).toDateString(),
     id: 5,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyE.svg'
+    imageSrc:''
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company F",
-    status: "New",
-    shipTo: "Elizabeth Andersen",
+    shortDescription: ApplePhone,
+    longDescription: `Apple iPhone 13 Pro Max`,
+    title: "Apple",
+    status: green,
+    Price: "💲2,443",
     orderTotal: 196.5,
     orderDate: new Date(2017, 6, 7).toDateString(),
     id: 6,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyF.svg'
+    imageSrc:'1'
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company G",
-    status: "Closed",
-    shipTo: "Peter Krschne",
+    shortDescription: SamsungPhone,
+    longDescription: `Samsung Galaxy S21 Ultra`,
+    title: "Samsung",
+    status: green,
+    Price: "💲1,342",
     orderTotal: 270.0,
     orderDate: new Date(2017, 6, 11).toDateString(),
     id: 7,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyG.svg'
+    imageSrc:'1'
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company H",
-    status: "Closed",
-    shipTo: "Sven Mortensen",
+    shortDescription: SonyPhone,
+    longDescription: `Sony Xperia PRO`,
+    title: "Sony",
+    status: green,
+    Price: "💲529",
     orderTotal: 736.0,
     orderDate: new Date(2017, 6, 14).toDateString(),
     id: 8,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyH.svg'
+    imageSrc:'1'
   },
   {
-    shortDescription: shortLoremIpsum,
-    longDescription: longLoremIpsum,
-    title: "Company I",
-    status: "Shipped",
-    shipTo: "Anna Bedecs",
+    shortDescription: HuaweiPhone,
+    longDescription: `HUAWEI P40 PRO`,
+    title: "Huawei",
+    status: green,
+    Price: "💲563",
     orderTotal: 800.0,
     orderDate: new Date(2017, 6, 18).toDateString(),
     id: 9,
-    imageSrc:'https://wtsrepository.blob.core.windows.net/sampledata/CompanyI.svg'
+    imageSrc:'1'
   }
 ];
 
